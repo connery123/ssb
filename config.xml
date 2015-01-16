@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget xmlns   = "http://www.w3.org/ns/widgets"
         xmlns:gap   = "http://phonegap.com/ns/1.0"
+		xmlns:android   = "http://schemas.android.com/apk/res/android"
         id          = "com.phonegap.example"
         versionCode = "10"
         version     = "1.0.0" >
@@ -17,4 +18,12 @@
         Jan Petter DFale
     </author>
     <gap:platform name="android" />
+	
+	
+	<icon src="pie_chart.png" gap:platform="android" gap:qualifier="ldpi" />
+<icon src="pie_chart.png" gap:platform="android" gap:qualifier="mdpi" />
+<icon src="pie_chart.png" gap:platform="android" gap:qualifier="hdpi" />
+<icon src="pie_chart.png" gap:platform="android" gap:qualifier="xhdpi" />
+<icon src="pie_chart.png" gap:platform="android" gap:qualifier="xxhdpi" />
+<icon src="pie_chart.png" gap:platform="android" gap:qualifier="fr-xxhdpi" />
 </widget>
